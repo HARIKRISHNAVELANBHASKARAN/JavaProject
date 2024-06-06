@@ -3,4 +3,6 @@ The Website's Register and Login modules are built using jsp java and Mysql as c
 <h4>Project Over view:<h4>
 <hr></hr>
 DATABASE DESIGN <br>
-----------------------
+----------------------<br>
+![Screenshot](DB design.png)
+
