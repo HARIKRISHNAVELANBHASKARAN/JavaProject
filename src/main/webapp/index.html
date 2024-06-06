@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css"></link>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+
+}
+form{
+    border-radius: 20px;
+    margin-top: 60px !important;
+    width: 24% !important;
+    background-color: white !important;
+    padding: 50px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+label{
+margin-bottom:-30px;
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    }
+    
+ .mb-3{
+ margin-top:25px;
+ 
+ margin-left:10px;
+ }
+ 
+ h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+ }  
+ .form-label{
+    font-weight: 800 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
+    }
+  }
+</style>
+</head>
+
+
+<body>
+<div class="container-fluid">
+<form action="reg.jsp" method="" class="mx-auto">
+ <label class="form-label">Username</label>
+ <input type="text" name="un" class="form-control"></br>
+
+ <label class="form-label">Password</label>
+ <input type="password" name="pwd" class="form-control"></br>
+ <label class="form-label">address</label> 
+ <input type="text" name="add" class="form-control"></br>
+ <label class="form-label">pincode</label>
+ <input type="text" name="zip" class="form-control"></br>
+<input type="submit" value="Register" class="btn btn-primary mt-5"><br>
+<div class="mb-3">
+Already having account ?
+<a href="login.html" class="text-center">Login</a>
+</div>
+</div>
+</form>
+</body>
+</html>
